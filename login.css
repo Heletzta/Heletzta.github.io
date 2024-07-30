@@ -1,9 +1,9 @@
 body {
-    --color-primary: #009579
-    --color-primary-dark: #007f67
-    --color-secondary: #252c6a
-    --color-error: #cc3333
-    --color-success: #4bb54b
+    --color-primary: #009579;
+    --color-primary-dark: #007f67;
+    --color-secondary: #252c6a;
+    --color-error: #cc3333;
+    --color-success: #4bb54b;
     --border-radius: 4px
 
     margin: 0;
@@ -73,7 +73,7 @@ body {
     padding: 0.75rem;
     box-sizing: border-box;
     border-radius: var(--border-radius);
-    border: 1px solid #dddddd;
+    border: 1px solid #159b1e;
     outline: none;
     background: #eeeeee;
     transition: background 0.2s, border-color 0.2s;
