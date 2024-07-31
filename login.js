@@ -44,8 +44,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
     document.querySelectorAll(".form__input").forEach(inputElement => {
         inputElement.addEventListener("blur", e => {
-            if (e.target.id == "SignUpUsername" && e.target.value.length > 0 && e.target.value.length < 7)
-            setInputError(inputElement, "Username must be at least 7 characters in length");
+            if (e.target.id == "SignUpUsername" && e.target.value.length > 0 && e.target.value.length < 7) {
+                setInputError(inputElement, "Username must be at least 7 characters in length");
+            }
+            
         });
 
         inputElement.addEventListener("input", e=> {
