@@ -82,7 +82,7 @@ body {
 
 .form__input:focus {
     border-color: var(--color-primary);
-    background: #ffffff;
+    background: #ffffffb5;
 
 }
 
@@ -130,5 +130,5 @@ body {
 }
 
 .form__link:hover {
-    text-decoration:underline;
+    text-decoration: underline;
 }
