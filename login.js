@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const loginForm = document.querySelector("#login");
     const createAccountForm = document.querySelector("#createAccount");
 
-    document.querySelector("#linkCreateAccount").addEventListener("click", e => {
+    document.querySelector("#linkSignUp").addEventListener("click", e => {
         e.preventDefault();
         loginForm.classList.add("form--hidden");
         createAccountForm.classList.remove("form--hidden");
