@@ -4,7 +4,7 @@ const loginForm = document.querySelector("#login");
 const createAccountForm = document.querySelector("#createAccount");
 
 function window_onload() {
-    return true;
+    return;
 }
 
 function createAccountOnClick() {
